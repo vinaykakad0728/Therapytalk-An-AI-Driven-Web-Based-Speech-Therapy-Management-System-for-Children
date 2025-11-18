@@ -1,0 +1,50 @@
+.recommendation-summary {
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recommendations-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.recommendation-text {
+    flex-grow: 1;
+    font-size: 1.1em;
+}
+
+.recommendation-visual {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.activity-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.activity-tip {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
