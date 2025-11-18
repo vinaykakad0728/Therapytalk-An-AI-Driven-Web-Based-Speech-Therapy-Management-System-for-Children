@@ -1,0 +1,2 @@
+# Therapytalk-An-AI-Driven-Web-Based-Speech-Therapy-Management-System-for-Children
+Therapytalk: AI-Driven Speech Therapy System for Children Developed an AI-enabled web platform for digitizing speech therapy workflows, including session scheduling, case allocation, and progress tracking. Automated documentation and real-time monitoring, improving therapy outcomes through structured data and personalized insights.
