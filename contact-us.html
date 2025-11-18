@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+                <title>CONTACT US</title>
+	<meta charset="utf-8">
+	<meta name="author" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="CONTACT US">
+	<meta name="keywords" content="CONTACT US">
+
+
+                
+                    <meta name="twitter:card" content="summary_large_image" />
+    
+
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+
+                
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script type="text/javascript" src="https://afarkas.github.io/lazysizes/lazysizes.min.js"></script>
+    <!-- WEBSITE JS -->
+            
+    
+    <!-- PAGE JS -->
+        <!-- CSS ================================================== -->
+
+                        <link rel="stylesheet" href="{{ url_for('static', filename='css/combined.min.css') }}" type='text/css'>         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="//static.sitemantic.com/webbuilder/js/lightbox/src/css/lightbox.css">
+    
+
+
+                        <link id="theme" rel="stylesheet" href="{{ url_for('static', filename='css/default.css') }}"  type='text/css'>
+                                            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Lato:400,700,300,100" type='text/css'>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com" type='text/css'>
+                    <link rel="stylesheet" href="https://fonts.gstatic.com" type='text/css'>
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baskervville+SC&amp;display=swap" type='text/css'>
+                	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <style id="footerBefore">
+            .footerBefore:before {
+                
+            }
+        </style>
+        <style>
+            .siteNavLink.patient {
+                background-color: #3498db; /* Blue for Patients */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                display: inline-block;
+                margin: 5px;
+            }
+    
+            .siteNavLink.therapist {
+                background-color: #e74c3c; /* Red for Therapists */
+                color: white;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+                display: inline-block;
+                margin: 5px;
+            }
+    
+            /* Optional: Change background on hover */
+            .siteNavLink.patient:hover {
+                background-color: #2980b9;
+            }
+    
+            .siteNavLink.therapist:hover {
+                background-color: #c0392b;
+            }
+    
+            /* Style the dropdown menu */
+            .dropdown {
+                list-style: none;
+                padding: 10px;
+                display: inline-block;
+            }
+        </style>
+
+</head>
+<body>
+<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <header class="blockHeader wb-header  " fixed="false"><div class="container-fluid ">
+                                    <div class="logoWidget logo logoTextSettingClass     ">
+        <a href="{{ url_for('home') }}" title="">
+                                                
+                                            
+        
+                    
+                            
+                            
+                
+                                        <span id="logoTextWrap" style="">
+                        <span class="websiteLogoName" style="color:#;font-family:Roboto;font-size:25px">TherapyTalk</span>
+                        <span class="websiteLogoSlogan" style="color:#fff;font-family:Roboto;font-size:10px"></span>
+                    </span>
+                        </a>
+</div>            
+                                <div class="navbar navbar-default navbar-static-top ">
+                                    <div class="navbar-header" id="13431279" compid="13431279" pageid="0" component-data="{}">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>            
+                                        
+<div class="navWidget navbar-collapse collapse
+        
+    ">
+    <ul class="parent-nav-ul nav navbar-nav navbar-center cl-effect-13"><li class="dropdown">
+                        <a href="{{ url_for('home') }}" pageslug="home" linktype="Page" class="siteNavLink">
+                            HOME
+                                                    </a>
+                                            </li>
+                                                          
+          
+                                                <li class="dropdown">
+                        <a href="{{ url_for('about') }}" pageslug="about" linktype="Page" class="siteNavLink">
+                            ABOUT
+                                                    </a>
+                                            </li>
+                                                          
+          
+                                                <li class="dropdown">
+                        <a href="{{ url_for('services') }}" pageslug="services" linktype="Page" class="siteNavLink">
+                            SERVICES
+                                                    </a>
+                                            </li>
+                                                          
+          
+                                                <li class="dropdown">
+                        <a href="{{ url_for('our_gallery') }}" pageslug="our-gallery" linktype="Page" class="siteNavLink">
+                            OUR GALLERY
+                                                    </a>
+                                            </li>
+                                                          
+          
+                                                <li class="dropdown">
+                        <a href="{{ url_for('contact_us') }}" pageslug="contact-us" linktype="Page" class="siteNavLink">
+                            CONTACT US
+                                                    </a>
+                                            </li>
+                                    
+                                            <li class="dropdown">
+                                                <a href="login.html" pageslug="log In/Sign Up" linktype="Page" class="siteNavLink patient">
+                                                    Log In/Sign Up As Patient
+                                                </a>
+                                            </li>                     
+                                            <li class="dropdown">
+                                                <a href="logindr.html" pageslug="log In/Sign Up" linktype="Page" class="siteNavLink therapist">
+                                                    Log In/Sign Up As Therapist
+                                                </a>
+                                            </li>
+                                                                
+                
+                                                                                                                                                                                            </ul></div>            
+    
+</div>
+            
+    
+</div>
+            
+    
+    <div class="container header-image-text"></div>
+</header>
+<div id="contact-us" class="page wb-page">
+                                    
+
+
+<section id="section-13431247" class="
+                breadcrumb-section                 "><div class="container boxWidget">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                    <div class="richTextWidget mini-banner ">
+     <h1 class="header-heading">Get in Touch</h1></div>            
+    
+</div>
+            
+    
+</div>
+            
+    
+</section><section id="section-13431251" class="
+                contact-cards                 "><div class="container boxWidget">
+                                    <div class="row custom-row ">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <div class="ending-bio1 ">
+                                    <div class="iconWidget service-icon ">
+     <i class="fa fa-location-arrow ending-icons"></i></div>            
+                                <div class="richTextWidget  ">
+     <h2>Location</h2>
+<p>TherapyTalk,Amravati, India</p></div>            
+    
+</div>
+            
+                                <div class="ending-bio ">
+                                    <div class="iconWidget service-icon ">
+     <i class="fa fa-phone-square ending-icons-1"></i></div>            
+                                <div class="richTextWidget  ">
+     <h2>Phone</h2>
+<p>+91 1234567890</p></div>            
+    
+</div>
+            
+                                <div class="ending-bio1 ">
+                                    <div class="iconWidget service-icon ">
+     <i class="fa fa-envelope ending-icons"></i></div>            
+                                <div class="richTextWidget  ">
+     <h2>Mail</h2>
+<p>support@therapytalk.com</p></div>            
+    
+</div>
+            
+    
+</div>
+            
+                                <div class="col-lg-6 col-md-6 col-sm-12 ">
+                                    <div class="richTextWidget para-normal ">
+      <h1>Query?</h1> <p>For inquiries or additional information about TherapyTalk, please feel free to reach out to us. Our team is dedicated to addressing your questions and exploring how our software can support your speech-language therapy practice.</p></div>            
+    
+</div>
+            
+    
+</div>
+            
+    
+</div>
+            
+    
+</section><section id="section-13431266" class="
+                widget-section widget-section-11-1 pt-0                 "><section id="section-13431267" class="
+                widget-section widget-section-10-1                  " style="    overflow: auto;"><div class="MapWidget col-md-12 remove-padding " style="">
+                                                            <div class="embed-container">
+                <iframe width="1920" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=TherapyTalk%2C%20%5BAddress%5D%2C%20Amravati%2C%20India&amp;z=16&amp;output=embed"></iframe>
+            </div>
+            
+</div>            
+    
+</section></section><section id="section-13431269" class="
+                widget-section widget-form-10 sec-padding-lg theme-dark-color-22                 " style=""><div class="container boxWidget">
+                                    <div class="row centered-row ">
+                                    <div class="col-lg-8 centered-col ">
+                                    <div class="richTextWidget page-heading ">
+     <h2 style="color:white;">Get In Touch</h2></div>            
+    
+</div>
+            
+    
+</div>
+            
+                                <div class="row centered-row ">
+                                    <div class="ContactFormWidget col-lg-8 centered-col ">
+    
+
+                                                                                            
+
+
+    
+        <form method="post" action="">
+            <div class="alert alert-success" style="display: none;" id="email_sent">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Success!</strong> Your email has been sent successfully.
+            </div>
+            <div class="input">
+
+                <label id="labelforname" class="">Your name:</label>
+                <input type="text" name="name" required placeholder="&#61447; Name"></div>
+            <div class="input">
+                <label id="labelforemail" class="">Your email:</label>
+                <input type="email" name="email" required placeholder="&#61664; Email "></div>
+            <label id="labelformessage" class="">Message:</label>
+            <textarea rows="6" name="message" required placeholder="&#61504; Message"></textarea><div></div>
+                                                                                                        <button id="textforsubmitbtn" type="button" class="button theme-button" value="Submit">Submit
+            </button>
+
+            <input type="hidden" name="website_source" value="innove.ai"></form>
+
+    
+
+</div>
+
+
+                    
+    
+</div>
+            
+    
+</div>
+            
+    
+</section></div>
+<footer class="footerBefore wb-footer  wb-footer " style=""><div class="container boxWidget">
+                                    <div class="footer-content ">
+                                    <div class="row ">
+                                    <div class="col-md-4 col-lg-4 col-sm-12 ">
+                                    <div class=" ">
+                                    <div class="richTextWidget  ">
+     <h5>Contact</h5></div>            
+                                <div class="richTextWidget footer-links ">
+     <ul><li><span class="fa" style="margin-right: 18px;">&#61505;</span><a href="#">TherapyTalk, Amravati, India</a></li>
+<li><span class="fa">&#61589;</span> <a href="#">+91 1234567890</a></li>
+<li><span class="fa">&#62134;</span><a href="#">support@therapytalk.com</a></li>
+</ul></div>            
+    
+</div>
+            
+    
+</div>
+            
+                                <div class="col-md-4 col-lg-4 col-sm-12 ">
+                                    <div class="richTextWidget  ">
+     <h5>Services</h5></div>            
+                                <div class="richTextWidget footer-links ">
+     <ul><li><a href="{{ url_for('services') }}?innove">Personalized Therapy Planning</a></li><li><a href="{{ url_for('services') }}?innove">Real-time Progress Tracking</a></li><li><a href="{{ url_for('services') }}?innove">Speech Recognition Technology</a></li></ul></div>            
+    
+</div>
+            
+                                <div class="footer-copyright ">
+                                    <div class="col-md-4 col-lg-4 col-sm-12 ">
+                                    <div class="richTextWidget  ">
+      <h5 style="font-weight: 700;">Social Links</h5></div>            
+                                
+
+<div class="socialIconsWidget     ">
+    <ul compid="13431294" pageid="0" component-data='{"socialIcons":[{"id":"icon1","slug":"facebook","url":"https:\/\/www.facebook.com\/","code":"&amp;#xf09a;"},{"id":"icon4","slug":"linkedin","url":"https:\/\/www.linkedin.com\/","code":"&amp;#xf0e1;"},{"id":"icon4","slug":"dribble","url":"https:\/\/dribbble.com\/","code":"&amp;#xf17d;"},{"id":"icon4","slug":"Github","url":"https:\/\/github.com\/","code":"&amp;#xf09b;"}]}' class="editSocialIcon"><li><a href="https://www.facebook.com/" target="_blank"><span class="fa">&#61594;</span></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><span class="fa">&#61665;</span></a></li>
+                    <li><a href="https://dribbble.com/" target="_blank"><span class="fa">&#61821;</span></a></li>
+                    <li><a href="https://github.com/" target="_blank"><span class="fa">&#61595;</span></a></li>
+            </ul></div>            
+    
+</div>
+            
+    
+</div>
+            
+    
+</div>
+            
+    
+</div>
+            
+    
+</div>
+            
+                                <div class="container boxWidget">
+                                    <div class="footer-copyright ">
+                                    <div class="row ">
+                                    <div class="richTextWidget col-lg-12 col-md-12 col-sm-12 ">
+     <p style="border-top: 1px solid white; padding: 5px; text-align: center; color: black;">Copyright 2024 All Rights Reserved.&nbsp;</p></div>            
+    
+</div>
+            
+    
+</div>
+            
+    
+</div>
+            
+    
+</footer>
+
+
+
+
+
+<script src="https://static.sitemantic.com/webbuilder/js/lightbox/src/js/lightbox.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+                            
+    <script>
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.lazyClass = 'lazy';
+        window.lazySizesConfig.srcAttr = 'data-original';
+
+        wow = new WOW(
+        {
+          animateClass: 'animated',
+          offset:       100
+        }
+      );
+      wow.init();
+    </script>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-38222064-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+<script language='JavaScript' type='text/javascript'>
+
+var ecommerceConfig={
+    'bussinessAccount' :'',
+    'paymentGatewayUrl':''
+}
+
+var imageBg = null;
+
+$('.dropdown').find('a').each(function() {
+    $(this).attr('href',$(this).attr('href')+"?innove");
+});
+</script>
+
+
+<script>
+    var AppConfig = {
+
+        'siteId': '8dd13a70ea39740c6638e795cb79fdfc',
+        'api_url': 'https://system.sitemantic.com/apps/api/',
+        'api_key': '',
+        'template' : 'pro-pulse'
+    }
+
+</script>
+<script custom-script-id="website_global" src="//static.sitemantic.com/webbuilder/js/website_global.js"></script>
+
+</body>
+</html>
